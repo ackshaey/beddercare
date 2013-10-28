@@ -1,5 +1,5 @@
-# Tasck
-### Ruby on Rails implementation of an alternative task management solution.
+# Beddercare
+### Ruby on Rails implementation of an application for the elderly.
   
   
  This is a work in progress. More details coming soon. 
