@@ -17,3 +17,6 @@
 //= require masonry/jquery.masonry
 //= require jquery.turbolinks
 //= require_tree .
+$(document).ready(function(){
+	Monocle.Reader('reader');
+	});
