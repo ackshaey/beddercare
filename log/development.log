@@ -7605,3 +7605,102 @@ Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-10-30 08:25:00 -0700
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-30 08:25:00 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-03 16:03:14 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (37.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1113ms (Views: 1087.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:16 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-03 16:03:17 -0800
