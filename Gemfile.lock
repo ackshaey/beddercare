@@ -33,6 +33,7 @@ GEM
       multi_json (~> 1.3)
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
+    addressable (2.3.5)
     arel (4.0.0)
     atomic (1.1.14)
     aws-sdk (1.22.1)
@@ -83,6 +84,8 @@ GEM
     multi_json (1.8.1)
     nokogiri (1.5.10)
     nokogiri (1.5.10-x86-mingw32)
+    opentok (0.1.2)
+      addressable
     orm_adapter (0.4.0)
     paperclip (3.5.1)
       activemodel (>= 3.0.0)
@@ -165,6 +168,7 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks
   masonry-rails (~> 0.2.0)
+  opentok
   paperclip (~> 3.0)
   pg
   rails (= 4.0.0)

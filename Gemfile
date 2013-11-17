@@ -15,6 +15,9 @@ group :production do
 	gem 'rails_12factor'	
 end
 
+# Videocalling with opentok
+gem 'opentok'
+
 #Signups and login
 gem "devise", "~> 3.1.1"
 

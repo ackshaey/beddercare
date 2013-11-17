@@ -1,7 +1,12 @@
 Tasck::Application.routes.draw do
+  get "rooms/index"
+  get "rooms/create"
+  get "rooms/party"
+  match '/party/:id', {:to => "rooms#party",:as => :party,:via => :get}
+  get "rooms/config_opentok"
   # maps HTTP verbs to controller actions automatically
   resources :tasks
-
+  resources :rooms
   devise_for :users
   # get "pages/home"
   root "pages#home"

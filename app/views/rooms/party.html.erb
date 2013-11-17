@@ -1,0 +1,67 @@
+<%= render 'pages/home' %>
+
+<div id=”invitation”>Invite your friends! Share the url of this page http://beddercare.herokuapp.com/party/<%= @room.id %></div>
+
+
+<script>
+	var apiKey = "20321822";
+	var sessionId = "<%=@room.sessionId%>";
+	var token = "<%=@token%>";
+
+	// Initialize session, set up event listeners, and connect
+	var session;
+	var publisher;
+	if (TB.checkSystemRequirements() == 1) {
+	    // Replace sessionId with your own values:
+	    var idt = "publisherDiv"
+	    var div = $('<div>',{id:idt});
+	    $("#videoChatDiv").append(div);
+	    session = TB.initSession(sessionId);
+	    session.addEventListener("sessionConnected",
+	                              sessionConnectHandler);
+	    session.addEventListener("streamCreated",
+	                              streamCreatedHandler);
+	    // session.addEventListener("streamDestroyed",
+	    //                           streamDestroyedHandler);
+	    session.connect(apiKey, token);
+	    publisher = TB.initPublisher(apiKey, idt);
+	        // Replace apiKey and replacementElementId with your own values:
+	} else {
+	    TB.log("The client does not support WebRTC.");
+	}
+	
+	function sessionConnectHandler(event) {
+		if (publisher != null){
+			session.publish(publisher);
+		}
+		alert(event.streams.length + " initial streams in the session.");
+	    for (var i = 0; i < event.streams.length; i++) {
+	        var stream = event.streams[i];
+	        subscribeToStream(stream);
+	    }
+	}
+
+	function streamCreatedHandler(event) {
+		alert(event.streams.length + " new streams in the session.");
+	    for (var i = 0; i < event.streams.length; i++) {
+	        var stream = event.streams[i];
+	        if (stream.connection != session.connection) {
+	                     // This Stream object is your own published stream
+             	subscribeToStream(stream);
+			}
+	        
+	    }
+	}
+
+	function subscribeToStream(stream) {
+	    if (stream.connection != session.connection) {
+	        // Replace replacementElementId with the DOM ID for the subscriber
+    		var idt = "stream"+stream.streamId;
+    		var div = $('<div>',{id:idt});
+    		$("#videoChatDiv").append(div);
+	        session.subscribe(stream, idt);
+	    }
+	}
+
+
+</script>
