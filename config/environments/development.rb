@@ -32,4 +32,14 @@ Tasck::Application.configure do
 
   # Paperclip
   #Paperclip.options[:command_path] = "/c/Program Files/ImageMagick-6.8.7-Q16/"
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              'smtp.gmail.com',
+    port:                 587,
+    domain:               'beddercare.herokuapp.com',
+    user_name:            'beddercare@gmail.com',
+    password:             'beddercarepassword',
+    authentication:       'plain',
+    enable_starttls_auto: true  }
 end

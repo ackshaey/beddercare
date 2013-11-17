@@ -6,7 +6,11 @@ Tasck::Application.routes.draw do
   get "rooms/config_opentok"
   # maps HTTP verbs to controller actions automatically
   resources :tasks
-  resources :rooms
+  resources :rooms do
+    member do
+      get :join
+    end
+  end
   devise_for :users
   # get "pages/home"
   root "pages#home"

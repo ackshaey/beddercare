@@ -2,7 +2,6 @@
 
 <div id=”invitation”>Invite your friends! Share the url of this page http://beddercare.herokuapp.com/party/<%= @room.id %></div>
 
-
 <script>
 	var apiKey = "20321822";
 	var sessionId = "<%=@room.sessionId%>";
@@ -29,7 +28,7 @@
 	} else {
 	    TB.log("The client does not support WebRTC.");
 	}
-	
+
 	function sessionConnectHandler(event) {
 		if (publisher != null){
 			session.publish(publisher);

@@ -1,21 +1,58 @@
-<div class="box panel panel-default">
-   <blockquote>
-     <p><span class="label label-default">Video</span>&nbsp;Art</p>
- </blockquote>
- <div class="panel-footer center">
-  <div class="btn-group">
-      <span class="glyphicon glyphicon-facetime-video btn btn-default"></span> 
-  </div>
-</div>
+<div id="roomList">
+  <% if !@rooms.nil? %>
+    <% @rooms.each do |room| %>
+      Name : <%= room.name %>
+      Created : <%= room.created_at %>
+      Session ID: <%= room.sessionId %>
+      <a href=party/<%= room.id %>>Join</a>
+      <hr/> 
+    <% end %>
+  <% end %>
 </div>
 
-<div class="box panel panel-default">
-   <blockquote>
-     <p><span class="label label-default">Video</span>&nbsp;Jerry</p>
- </blockquote>
- <div class="panel-footer center">
-  <div class="btn-group">
-      <span class="glyphicon glyphicon-facetime-video btn btn-default"></span> 
+<div id="masonry-container-contacts" class="transitions-enabled infinite-scroll clearfix">
+  <!-- Art -->
+  <div class="box panel panel-default">
+    <blockquote>
+      <p><span class="label label-default">Video</span>&nbsp;Art</p>
+    </blockquote>
+    <div class="panel-footer center">
+      <div class="btn-group">
+        <span class="glyphicon glyphicon-facetime-video btn btn-default"></span> 
+      </div>
+    </div>
   </div>
-</div>
+  <!-- Jerry -->
+  <div class="box panel panel-default">
+    <blockquote>
+      <p><span class="label label-default">Video</span>&nbsp;Jerry</p>
+    </blockquote>
+    <div class="panel-footer center">
+      <div class="btn-group">
+        <span class="glyphicon glyphicon-facetime-video btn btn-default"></span> 
+      </div>
+    </div>
+  </div>
+  <!-- Ackshaey -->
+  <div class="box panel panel-default">
+    <blockquote>
+      <p><span class="label label-default">Video</span>&nbsp;Ackshaey</p>
+    </blockquote>
+    <div class="panel-footer center">
+      <div class="btn-group">
+        <span class="glyphicon glyphicon-facetime-video btn btn-default"></span> 
+      </div>
+    </div>
+  </div>
+  <!-- Nurse -->
+  <div class="box panel panel-default">
+    <blockquote>
+      <p><span class="label label-default">Video</span>&nbsp;Nurse</p>
+    </blockquote>
+    <div class="panel-footer center">
+      <div class="btn-group">
+        <span class="glyphicon glyphicon-facetime-video btn btn-default"></span> 
+      </div>
+    </div>
+  </div>
 </div>

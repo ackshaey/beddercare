@@ -1,0 +1,11 @@
+  <!-- User rendered in a box -->
+  <div class="box panel panel-default">
+    <blockquote>
+      <p><span class="label label-default">Video</span>&nbsp;<%= user.name %></p>
+    </blockquote>
+    <div class="panel-footer center">
+      <div class="btn-group">
+          <%= link_to raw('<span class="glyphicon glyphicon-facetime-video"></span>'), rooms_create_path({:user_id => user.id}), class: "btn btn-default"%>
+      </div>
+    </div>
+  </div>

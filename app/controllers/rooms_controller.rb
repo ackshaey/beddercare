@@ -7,15 +7,24 @@ class RoomsController < ApplicationController
 	def index
 		@rooms = Room.where(:public => true).order("created_at DESC")
 		@new_room = Room.new
+		@users = User.all
+		# respond_to do |format|
+		# format.html {redirect_to(root_path)}
+		# end
 	end
 
 	def create
 		if @opentok.nil? 
 			raise "Error! @opentok object was nil"
 		else
+			@calledUser = User.find(params[:user_id])
 			session = @opentok.create_session request.remote_addr
-			params[:room][:sessionId] = session.session_id
-			@new_room = Room.new(room_params)
+			@calledUser
+			# params[:room][:sessionId] = session.session_id unless params[:room].nil?
+			@new_room = Room.new()
+			@new_room.user_id = params[:user_id]
+			@new_room.sessionId = session.session_id
+			UserMailer.notification_email(@calledUser, @new_room).deliver
 			respond_to do |format|
 				if @new_room.save
 					format.html {redirect_to("/party/"+@new_room.id.to_s)}

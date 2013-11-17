@@ -16,7 +16,9 @@
 				<div class="panel-body">
 					<div id="videoChatDiv"></div>
 					<div id="chatContactsDiv">
-						<%= render 'rooms/listing' %>
+						<div id="masonry-container-contacts" class="transitions-enabled infinite-scroll clearfix">
+							<%= render @users %>
+						</div>
 					</div>
 				</div>
 			</div>
