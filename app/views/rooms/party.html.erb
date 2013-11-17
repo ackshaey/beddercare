@@ -33,7 +33,7 @@
 		if (publisher != null){
 			session.publish(publisher);
 		}
-		alert(event.streams.length + " initial streams in the session.");
+	//	alert(event.streams.length + " initial streams in the session.");
 	    for (var i = 0; i < event.streams.length; i++) {
 	        var stream = event.streams[i];
 	        subscribeToStream(stream);
@@ -41,7 +41,7 @@
 	}
 
 	function streamCreatedHandler(event) {
-		alert(event.streams.length + " new streams in the session.");
+	//	alert(event.streams.length + " new streams in the session.");
 	    for (var i = 0; i < event.streams.length; i++) {
 	        var stream = event.streams[i];
 	        if (stream.connection != session.connection) {

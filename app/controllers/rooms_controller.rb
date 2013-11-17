@@ -24,11 +24,11 @@ class RoomsController < ApplicationController
 			@new_room = Room.new()
 			@new_room.user_id = params[:user_id]
 			@new_room.sessionId = session.session_id
-			new_room_id = @new_room.id.to_s
-			UserMailer.notification_email(@calledUser, new_room_id).deliver
+			
 			respond_to do |format|
 				if @new_room.save
 					format.html {redirect_to("/party/"+@new_room.id.to_s)}
+					UserMailer.notification_email(@new_room).deliver
 				else
 					format.html {render :controller => 'rooms', :action => 'index'}
 				end
