@@ -24,7 +24,8 @@ class RoomsController < ApplicationController
 			@new_room = Room.new()
 			@new_room.user_id = params[:user_id]
 			@new_room.sessionId = session.session_id
-			UserMailer.notification_email(@calledUser, @new_room).deliver
+			new_room_id = @new_room.id.to_s
+			UserMailer.notification_email(@calledUser, new_room_id).deliver
 			respond_to do |format|
 				if @new_room.save
 					format.html {redirect_to("/party/"+@new_room.id.to_s)}
