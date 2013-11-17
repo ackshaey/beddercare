@@ -41976,3 +41976,1271 @@ Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-11-17 01:10:07 -0800
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 01:10:07 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-17 01:25:14 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.9ms)
+  Rendered pages/home.html.erb within layouts/application (35.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 98ms (Views: 93.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:14 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:14 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:14 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:14 -0800
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:14 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:14 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:14 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:14 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:14 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-11-17 01:25:15 -0800
+
+
+Started GET "/rooms/create?user_id=1" for 127.0.0.1 at 2013-11-17 01:25:18 -0800
+Processing by RoomsController#create as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered user_mailer/notification_email.html.erb (0.3ms)
+
+Sent mail to ackshaey@gmail.com (8.9ms)
+Date: Sun, 17 Nov 2013 01:25:19 -0800
+From: beddercare@gmail.com
+To: ackshaey@gmail.com
+Message-ID: <52888b7f82455_9033fc8afc48120141e6@Ackshaeys-MacBook-Pro.local.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Beddercare, Ackshaey Singh</h1>
+    <p>
+      You have received a video chat request. Please click the link below to join the chatroom and chat with your Beddercare Assisted Living Resident.<br/>
+    </p>
+    <p>
+      Click the link on a desktop Chrome or Firefox browser <br/>
+    </p>
+    <p>Have a great day!</p>
+  </body>
+</html>
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "rooms" ("created_at", "sessionId", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["created_at", Sun, 17 Nov 2013 09:25:19 UTC +00:00], ["sessionId", "1_MX4yMDMyMTgyMn4xMjcuMC4wLjF-U3VuIE5vdiAxNyAwMToyNToxMyBQU1QgMjAxM34wLjU5OTIyMjF-"], ["updated_at", Sun, 17 Nov 2013 09:25:19 UTC +00:00], ["user_id", 1]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/party/19
+Completed 302 Found in 564ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/party/19" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "19"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered pages/_home.html.erb (4.2ms)
+  Rendered rooms/party.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/rooms/create?user_id=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+Processing by RoomsController#create as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered user_mailer/notification_email.html.erb (0.1ms)
+
+Sent mail to ackshaey@gmail.com (5.3ms)
+Date: Sun, 17 Nov 2013 01:25:19 -0800
+From: beddercare@gmail.com
+To: ackshaey@gmail.com
+Message-ID: <52888b7fa9abf_9033fc8afc481201421d@Ackshaeys-MacBook-Pro.local.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Beddercare, Ackshaey Singh</h1>
+    <p>
+      You have received a video chat request. Please click the link below to join the chatroom and chat with your Beddercare Assisted Living Resident.<br/>
+    </p>
+    <p>
+      Click the link on a desktop Chrome or Firefox browser <br/>
+    </p>
+    <p>Have a great day!</p>
+  </body>
+</html>
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "rooms" ("created_at", "sessionId", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["created_at", Sun, 17 Nov 2013 09:25:19 UTC +00:00], ["sessionId", "2_MX4yMDMyMTgyMn4xMjcuMC4wLjF-U3VuIE5vdiAxNyAwMToyNToxMyBQU1QgMjAxM34wLjI0NjU1Njk0fg"], ["updated_at", Sun, 17 Nov 2013 09:25:19 UTC +00:00], ["user_id", 1]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/party/20
+Completed 302 Found in 78ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/party/20" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "20"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered pages/_home.html.erb (1.3ms)
+  Rendered rooms/party.html.erb within layouts/application (47.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 60ms (Views: 58.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:19 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:20 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-11-17 01:25:31 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-17 01:25:32 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.9ms)
+  Rendered pages/home.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.8ms)
+  Rendered pages/home.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-11-17 01:25:33 -0800
+
+
+Started GET "/rooms/create?user_id=3" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+Processing by RoomsController#create as HTML
+  Parameters: {"user_id"=>"3"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered user_mailer/notification_email.html.erb (0.1ms)
+
+Sent mail to ackshaey@gmail.com (5.2ms)
+Date: Sun, 17 Nov 2013 01:25:36 -0800
+From: beddercare@gmail.com
+To: ackshaey@gmail.com
+Message-ID: <52888b905906f_9033fc8b0011694143ce@Ackshaeys-MacBook-Pro.local.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Beddercare, Jerry Liu</h1>
+    <p>
+      You have received a video chat request. Please click the link below to join the chatroom and chat with your Beddercare Assisted Living Resident.<br/>
+    </p>
+    <p>
+      Click the link on a desktop Chrome or Firefox browser <br/>
+    </p>
+    <p>Have a great day!</p>
+  </body>
+</html>
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "rooms" ("created_at", "sessionId", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["created_at", Sun, 17 Nov 2013 09:25:36 UTC +00:00], ["sessionId", "2_MX4yMDMyMTgyMn4xMjcuMC4wLjF-U3VuIE5vdiAxNyAwMToyNTozMCBQU1QgMjAxM34wLjU4NTA5OTE2fg"], ["updated_at", Sun, 17 Nov 2013 09:25:36 UTC +00:00], ["user_id", 3]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/party/21
+Completed 302 Found in 75ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/party/21" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "21"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered pages/_home.html.erb (0.9ms)
+  Rendered rooms/party.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/rooms/create?user_id=3" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+Processing by RoomsController#create as HTML
+  Parameters: {"user_id"=>"3"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered user_mailer/notification_email.html.erb (0.1ms)
+
+Sent mail to ackshaey@gmail.com (5.3ms)
+Date: Sun, 17 Nov 2013 01:25:36 -0800
+From: beddercare@gmail.com
+To: ackshaey@gmail.com
+Message-ID: <52888b9074c3d_9033fc8b00116941447f@Ackshaeys-MacBook-Pro.local.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Beddercare, Jerry Liu</h1>
+    <p>
+      You have received a video chat request. Please click the link below to join the chatroom and chat with your Beddercare Assisted Living Resident.<br/>
+    </p>
+    <p>
+      Click the link on a desktop Chrome or Firefox browser <br/>
+    </p>
+    <p>Have a great day!</p>
+  </body>
+</html>
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "rooms" ("created_at", "sessionId", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["created_at", Sun, 17 Nov 2013 09:25:36 UTC +00:00], ["sessionId", "2_MX4yMDMyMTgyMn4xMjcuMC4wLjF-U3VuIE5vdiAxNyAwMToyNTozMCBQU1QgMjAxM34wLjcxOTQ4Njl-"], ["updated_at", Sun, 17 Nov 2013 09:25:36 UTC +00:00], ["user_id", 3]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/party/22
+Completed 302 Found in 72ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/party/22" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"22"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "22"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered pages/_home.html.erb (1.4ms)
+  Rendered rooms/party.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:36 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-11-17 01:25:46 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-17 01:25:46 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (1.2ms)
+  Rendered pages/home.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 26.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-17 01:25:47 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.6ms)
+  Rendered pages/home.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:47 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-11-17 01:25:48 -0800
+
+
+Started GET "/rooms/create?user_id=1" for 127.0.0.1 at 2013-11-17 01:32:32 -0800
+Processing by RoomsController#create as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered user_mailer/notification_email.html.erb (0.1ms)
+
+Sent mail to ackshaey@gmail.com (5.2ms)
+Date: Sun, 17 Nov 2013 01:32:32 -0800
+From: beddercare@gmail.com
+To: ackshaey@gmail.com
+Message-ID: <52888d30b3e26_9033fc8ae4ef4d814513@Ackshaeys-MacBook-Pro.local.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Beddercare, Ackshaey Singh</h1>
+    <p>
+      You have received a video chat request. Please click the link below to join the chatroom and chat with your Beddercare Assisted Living Resident.<br/>
+    </p>
+    <p>
+      Click the link on a desktop Chrome or Firefox browser <br/>
+    </p>
+    <p>Have a great day!</p>
+  </body>
+</html>
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "rooms" ("created_at", "sessionId", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["created_at", Sun, 17 Nov 2013 09:32:32 UTC +00:00], ["sessionId", "2_MX4yMDMyMTgyMn4xMjcuMC4wLjF-U3VuIE5vdiAxNyAwMTozMjoyNiBQU1QgMjAxM34wLjQ4MzgxNTk3fg"], ["updated_at", Sun, 17 Nov 2013 09:32:32 UTC +00:00], ["user_id", 1]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/party/23
+Completed 302 Found in 229ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/party/23" for 127.0.0.1 at 2013-11-17 01:32:32 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"23"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "23"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered pages/_home.html.erb (1.3ms)
+  Rendered rooms/party.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/rooms/create?user_id=1" for 127.0.0.1 at 2013-11-17 01:32:32 -0800
+Processing by RoomsController#create as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered user_mailer/notification_email.html.erb (0.1ms)
+
+Sent mail to ackshaey@gmail.com (5.4ms)
+Date: Sun, 17 Nov 2013 01:32:32 -0800
+From: beddercare@gmail.com
+To: ackshaey@gmail.com
+Message-ID: <52888d30d0806_9033fc8ae4ef4d8146cb@Ackshaeys-MacBook-Pro.local.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Beddercare, Ackshaey Singh</h1>
+    <p>
+      You have received a video chat request. Please click the link below to join the chatroom and chat with your Beddercare Assisted Living Resident.<br/>
+    </p>
+    <p>
+      Click the link on a desktop Chrome or Firefox browser <br/>
+    </p>
+    <p>Have a great day!</p>
+  </body>
+</html>
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "rooms" ("created_at", "sessionId", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["created_at", Sun, 17 Nov 2013 09:32:32 UTC +00:00], ["sessionId", "1_MX4yMDMyMTgyMn4xMjcuMC4wLjF-U3VuIE5vdiAxNyAwMTozMjoyNiBQU1QgMjAxM34wLjQ5NTEwNTYyfg"], ["updated_at", Sun, 17 Nov 2013 09:32:32 UTC +00:00], ["user_id", 1]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/party/24
+Completed 302 Found in 76ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/party/24" for 127.0.0.1 at 2013-11-17 01:32:32 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"24"}
+  [1m[35mRoom Load (0.1ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "24"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered pages/_home.html.erb (1.2ms)
+  Rendered rooms/party.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 01:32:33 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.8ms)
+  Rendered pages/home.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:19 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-11-17 01:34:20 -0800
+
+
+Started GET "/rooms/create?user_id=1" for 127.0.0.1 at 2013-11-17 01:34:23 -0800
+Processing by RoomsController#create as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered user_mailer/notification_email.html.erb (0.1ms)
+
+Sent mail to ackshaey@gmail.com (5.3ms)
+Date: Sun, 17 Nov 2013 01:34:23 -0800
+From: beddercare@gmail.com
+To: ackshaey@gmail.com
+Message-ID: <52888d9fa8cfc_9033fc8afdb44dc1471e@Ackshaeys-MacBook-Pro.local.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Beddercare, Ackshaey Singh</h1>
+    <p>
+      You have received a video chat request. Please click the link below to join the chatroom and chat with your Beddercare Assisted Living Resident.<br/>
+    </p>
+    <p>
+      Click the link on a desktop Chrome or Firefox browser <br/>
+    </p>
+    <p>Have a great day!</p>
+  </body>
+</html>
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "rooms" ("created_at", "sessionId", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["created_at", Sun, 17 Nov 2013 09:34:23 UTC +00:00], ["sessionId", "2_MX4yMDMyMTgyMn4xMjcuMC4wLjF-U3VuIE5vdiAxNyAwMTozNDoxNyBQU1QgMjAxM34wLjYyMjM3NTM3fg"], ["updated_at", Sun, 17 Nov 2013 09:34:23 UTC +00:00], ["user_id", 1]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/party/25
+Completed 302 Found in 134ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/party/25" for 127.0.0.1 at 2013-11-17 01:34:23 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"25"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "25"]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered pages/_home.html.erb (2.4ms)
+  Rendered rooms/party.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/rooms/create?user_id=1" for 127.0.0.1 at 2013-11-17 01:34:23 -0800
+Processing by RoomsController#create as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered user_mailer/notification_email.html.erb (0.1ms)
+
+Sent mail to ackshaey@gmail.com (6.8ms)
+Date: Sun, 17 Nov 2013 01:34:23 -0800
+From: beddercare@gmail.com
+To: ackshaey@gmail.com
+Message-ID: <52888d9fc9f24_9033fc8afdb44dc14892@Ackshaeys-MacBook-Pro.local.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Beddercare, Ackshaey Singh</h1>
+    <p>
+      You have received a video chat request. Please click the link below to join the chatroom and chat with your Beddercare Assisted Living Resident.<br/>
+    </p>
+    <p>
+      Click the link on a desktop Chrome or Firefox browser <br/>
+    </p>
+    <p>Have a great day!</p>
+  </body>
+</html>
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "rooms" ("created_at", "sessionId", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["created_at", Sun, 17 Nov 2013 09:34:23 UTC +00:00], ["sessionId", "1_MX4yMDMyMTgyMn4xMjcuMC4wLjF-U3VuIE5vdiAxNyAwMTozNDoxNyBQU1QgMjAxM34wLjgyNjA0NjM1fg"], ["updated_at", Sun, 17 Nov 2013 09:34:23 UTC +00:00], ["user_id", 1]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/party/26
+Completed 302 Found in 90ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/party/26" for 127.0.0.1 at 2013-11-17 01:34:23 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"26"}
+  [1m[35mRoom Load (0.2ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "26"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered pages/_home.html.erb (1.2ms)
+  Rendered rooms/party.html.erb within layouts/application (44.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 60ms (Views: 57.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-17 01:34:24 -0800
