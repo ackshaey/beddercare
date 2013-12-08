@@ -98,7 +98,7 @@ Tasck::Application.configure do
     port:                 587,
     domain:               'beddercare.herokuapp.com',
     user_name:            'beddercare@gmail.com',
-    password:             'beddercarepassword',
+    password:             'techBeddercare',
     authentication:       'plain',
     enable_starttls_auto: true  }
 end
