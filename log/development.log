@@ -62010,3 +62010,680 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-08 14:58:42
 
 
 Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-12-08 14:58:42 -0800
+
+
+Started GET "/party/41" for 127.0.0.1 at 2013-12-08 15:07:00 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"41"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "41"]]
+  Rendered pages/_home.html.erb (2.0ms)
+  Rendered rooms/party.html.erb within layouts/application (36.1ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (25.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 670ms (Views: 364.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:01 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:01 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:01 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:01 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:01 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:01 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:01 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:01 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:01 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:02 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:03 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:03 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:03 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-12-08 15:07:03 -0800
+
+
+Started GET "/party/41" for 127.0.0.1 at 2013-12-08 15:07:51 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"41"}
+  [1m[35mRoom Load (1.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "41"]]
+  Rendered pages/_home.html.erb (3.0ms)
+  Rendered rooms/party.html.erb within layouts/application (4.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:52 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-08 15:07:53 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-12-08 15:07:54 -0800
+
+
+Started GET "/party/41" for 127.0.0.1 at 2013-12-08 15:08:41 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"41"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "41"]]
+  Rendered pages/_home.html.erb (3.0ms)
+  Rendered rooms/party.html.erb within layouts/application (4.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-12-08 15:08:41 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-08 15:08:41 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-12-08 15:08:41 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-12-08 15:08:41 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:42 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:43 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:43 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:43 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:43 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:43 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:43 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:43 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:43 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-08 15:08:43 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-12-08 15:08:44 -0800
+
+
+Started GET "/party/41" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"41"}
+  [1m[35mRoom Load (0.0ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "41"]]
+  Rendered pages/_home.html.erb (3.0ms)
+  Rendered rooms/party.html.erb within layouts/application (4.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:23 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:24 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:25 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:25 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:25 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-12-08 15:09:25 -0800
+
+
+Started GET "/party/41" for 127.0.0.1 at 2013-12-08 15:09:53 -0800
+Processing by RoomsController#party as HTML
+  Parameters: {"id"=>"41"}
+  [1m[35mRoom Load (0.5ms)[0m  SELECT "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT 1  [["id", "41"]]
+  Rendered pages/_home.html.erb (15.5ms)
+  Rendered rooms/party.html.erb within layouts/application (17.5ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 38.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:53 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:53 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:53 -0800
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:53 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:53 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:53 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:53 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-12-08 15:09:53 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:53 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:54 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:55 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:55 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-08 15:09:55 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-12-08 15:09:55 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-08 15:10:21 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (1.0ms)
+  Rendered pages/home.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-08 15:10:21 -0800
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (1.0ms)
+  Rendered pages/home.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-08 15:10:21 -0800
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for 127.0.0.1 at 2013-12-08 15:10:21 -0800
+
+
+Started GET "/assets/bootstrap_customization.css?body=1" for 127.0.0.1 at 2013-12-08 15:10:21 -0800
+
+
+Started GET "/assets/monocore.css?body=1" for 127.0.0.1 at 2013-12-08 15:10:21 -0800
+
+
+Started GET "/assets/monoctrl.css?body=1" for 127.0.0.1 at 2013-12-08 15:10:21 -0800
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-12-08 15:10:21 -0800
+
+
+Started GET "/assets/rooms.css?body=1" for 127.0.0.1 at 2013-12-08 15:10:21 -0800
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:22 -0800
+
+
+Started GET "/assets/jquery.turbolinks.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:23 -0800
+
+
+Started GET "/assets/monocore.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:23 -0800
+
+
+Started GET "/assets/monoctrl.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:23 -0800
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:23 -0800
+
+
+Started GET "/assets/rooms.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:23 -0800
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:23 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-08 15:10:23 -0800
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2013-12-08 15:10:23 -0800
