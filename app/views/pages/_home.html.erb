@@ -1,9 +1,10 @@
-<div class ="jumbotron center">
-	<h1>Welcome to <span class="purple">Beddercare</span></h1>
-	<% if !user_signed_in? %>
-	<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg"%>
-	<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg"%>
-	<% end %>
+
+
+
+<div class="page-header well well-sm">
+  <h1 class="center">Beddercare<small><sup>&reg;</sup></small> <small>Dashboard - Video Chat</small></h1>
+  <center><%= link_to "End Video Chat", root_path, class: "btn btn-danger btn-lg center"%></center>
+  
 </div>
 
 <div class="container">
@@ -11,7 +12,7 @@
 		<div class="col-md-6">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3 class="panel-title">Chat</h3>
+					<h3 class="panel-title">Beddercare Video Chat</h3>
 				</div>
 				<div class="panel-body">
 					<div id="videoChatDiv"></div>
@@ -25,10 +26,14 @@
 		<div class="col-md-6">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3 class="panel-title">Message</h3>
+					<h3 class="panel-title">Beddercare Video Chat</h3>
 				</div>
 				<div class="panel-body">
-					Panel content
+					<div id="videoChatDiv2"></div>
+					<div id="chatContactsDiv">
+						<div id="masonry-container-contacts" class="transitions-enabled infinite-scroll clearfix">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -37,12 +42,44 @@
 		<div class="col-md-6">
 			<div class="panel panel-default">
 				<div class="panel-heading">
+					<h3 class="panel-title">Messages</h3>
+				</div>
+				<div class="panel-body">
+					
+					<!-- Message rendered in a box -->
+					<div class="text panel panel-default panel-info">
+						<div class="panel-heading">
+					    <p><span class="label label-default">Text</span>&nbsp;from (404) 754-6030 at <small>3:01 PM</small></p>
+					    </div>
+					  <div class="panel-body center">
+					  	<span class="glyphicon glyphicon-phone"></span>
+					        Hi Art - hope you're doing well. I'll be down there at 4 PM.
+					  </div>
+					</div>
+
+					<div class="text panel panel-default panel-success">
+						<div class="panel-heading">
+					    <p><span class="label label-default">Email</span>&nbsp;from ackshaey@gmail.com at <small>3:01 PM</small></p>
+					    </div>
+					  <div class="panel-body center">
+					  	<span class="glyphicon glyphicon-envelope"></span>
+					        This is a sample email. Each user will have an email address dynamically assigned at sign in. 
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">
 					<h3 class="panel-title">Movies</h3>
 				</div>
 				<div class="panel-body">
-					<iframe width="420" height="315" src="//www.youtube.com/embed/yJmJLwAlVRI" frameborder="0" allowfullscreen></iframe>
-					<iframe width="420" height="315" src="//www.youtube.com/embed/e6lwhnAeu1g" frameborder="0" allowfullscreen></iframe>
-					<iframe width="420" height="315" src="//www.youtube.com/embed/zakXTnke3m0" frameborder="0" allowfullscreen></iframe>
+					<a class="embedly-card" href="http://www.youtube.com/watch?v=L_qfC3utQwI&list=PLEE54950D026DAC24">Bicentennial Man (1999)</a>
+<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
+
+					<a class="embedly-card" href="http://www.youtube.com/watch?v=JvdMjXhPGd0&list=PLEE54950D026DAC24&index=6">A Christmas Carol (1984 Full Film)</a>
+<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
 				</div>
 			</div>
 		</div>
@@ -53,8 +90,10 @@
 				</div>
 				<div class="panel-body">
 					<div id="reader">
-						<h1>Alice in Wonderland</h1>
-						<p>CHAPTER I. Down the Rabbit-Hole
+						<h3>Alice in Wonderland</h3>
+						<p></p>
+						<p></p>
+						<h3>CHAPTER I. Down the Rabbit-Hole</h3><p>
 
 Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversation?'
 So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.

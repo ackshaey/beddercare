@@ -1,17 +1,23 @@
+<% if !user_signed_in? %>
 <div class ="jumbotron center">
-	<h1>Welcome to <span class="purple">Beddercare</span></h1>
-	<% if !user_signed_in? %>
+	<h1>Welcome to  <span class="purple">Beddercare</span><small><sup>&reg;</sup></small></h1>
 	<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg"%>
 	<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg"%>
-	<% end %>
 </div>
+<% else  %>
+<div class="page-header well well-sm">
+  <h1 class="center">Beddercare<small><sup>&reg;</sup></small> <small>Dashboard</small></h1>
+</div>
+<% end %>
+
+
 
 <div class="container">
 	<div class="row">
 		<div class="col-md-6">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3 class="panel-title">Chat</h3>
+					<h3 class="panel-title">Video Chat</h3>
 				</div>
 				<div class="panel-body">
 					<div id="videoChatDiv"></div>
@@ -26,10 +32,44 @@
 		<div class="col-md-6">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3 class="panel-title">Message</h3>
+					<h3 class="panel-title">Messages</h3>
 				</div>
 				<div class="panel-body">
-					Panel content
+					
+					<!-- Message rendered in a box -->
+					<div class="text panel panel-default panel-info">
+						<div class="panel-heading">
+					    <p><span class="label label-default">Text</span>&nbsp;from (404) 754-6030 at <small>3:01 PM</small></p>
+					    </div>
+					  <div class="panel-body center">
+					  	<span class="glyphicon glyphicon-phone"></span>
+					        Hi Art - hope you're doing well. I'll be down there at 4 PM.
+					  </div>
+					</div>
+
+					<div class="text panel panel-default panel-success">
+						<div class="panel-heading">
+					    <p><span class="label label-default">Email</span>&nbsp;from ackshaey@gmail.com at <small>3:01 PM</small></p>
+					    </div>
+					  <div class="panel-body center">
+					  	<span class="glyphicon glyphicon-envelope"></span>
+					        This is a sample email. Each user will have an email address dynamically assigned at sign in. 
+					  </div>
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				</div>
 			</div>
 		</div>
@@ -41,9 +81,12 @@
 					<h3 class="panel-title">Movies</h3>
 				</div>
 				<div class="panel-body">
-					<iframe width="420" height="315" src="//www.youtube.com/embed/yJmJLwAlVRI" frameborder="0" allowfullscreen></iframe>
-					<iframe width="420" height="315" src="//www.youtube.com/embed/e6lwhnAeu1g" frameborder="0" allowfullscreen></iframe>
-					<iframe width="420" height="315" src="//www.youtube.com/embed/zakXTnke3m0" frameborder="0" allowfullscreen></iframe>
+
+					<a class="embedly-card" href="http://www.youtube.com/watch?v=L_qfC3utQwI&list=PLEE54950D026DAC24">Bicentennial Man (1999)</a>
+<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
+
+					<a class="embedly-card" href="http://www.youtube.com/watch?v=JvdMjXhPGd0&list=PLEE54950D026DAC24&index=6">A Christmas Carol (1984 Full Film)</a>
+<script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
 				</div>
 			</div>
 		</div>

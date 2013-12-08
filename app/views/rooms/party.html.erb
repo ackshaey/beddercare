@@ -1,7 +1,5 @@
 <%= render 'pages/home' %>
 
-<div id=”invitation”>Invite your friends! Share the url of this page http://beddercare.herokuapp.com/party/<%= @room.id %></div>
-
 <script>
 	var apiKey = "20321822";
 	var sessionId = "<%=@room.sessionId%>";
@@ -14,6 +12,8 @@
 	    // Replace sessionId with your own values:
 	    var idt = "publisherDiv"
 	    var div = $('<div>',{id:idt});
+	    var publisherProps = {width: 508, 
+                        height: 375};
 	    $("#videoChatDiv").append(div);
 	    session = TB.initSession(sessionId);
 	    session.addEventListener("sessionConnected",
@@ -23,7 +23,7 @@
 	    // session.addEventListener("streamDestroyed",
 	    //                           streamDestroyedHandler);
 	    session.connect(apiKey, token);
-	    publisher = TB.initPublisher(apiKey, idt);
+	    publisher = TB.initPublisher(apiKey, idt, publisherProps);
 	        // Replace apiKey and replacementElementId with your own values:
 	} else {
 	    TB.log("The client does not support WebRTC.");
@@ -57,8 +57,11 @@
 	        // Replace replacementElementId with the DOM ID for the subscriber
     		var idt = "stream"+stream.streamId;
     		var div = $('<div>',{id:idt});
-    		$("#videoChatDiv").append(div);
-	        session.subscribe(stream, idt);
+    		$("#videoChatDiv2").append(div);
+    		var subscriberProps = {width: 508, 
+                        height: 375, 
+                        subscribeToAudio: true};
+	        session.subscribe(stream, idt, subscriberProps);
 	    }
 	}
 
